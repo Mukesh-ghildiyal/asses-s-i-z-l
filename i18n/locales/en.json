@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Production Monitoring Dashboard",
+  "machineNameLabel": "Machine Name",
+  "selectMachinePlaceholder": "Select machine",
+  "dateRangeLabel": "Date Range",
+  "selectDateRangePlaceholder": "Select date range",
+  "productionChartTitle": "Daily Production Output",
+  "productionTableTitle": "Machine Status",
+  "tableMachineName": "Machine Name",
+  "tableStatus": "Status",
+  "tableOutput": "Total Output",
+  "tableLastUpdated": "Last Updated",
+  "errorLoading": "Error loading data",
+  "lastDays": "Last {{days}} days",
+  "nav": {
+    "dashboard": "Dashboard",
+    "analytics": "Analytics",
+    "performance": "Performance",
+    "settings": "Settings"
+  },
+  "stats": {
+    "totalMachines": "Total Machines",
+    "onlineMachines": "Online Machines",
+    "totalProduction": "Total Production",
+    "efficiency": "Efficiency",
+    "machineStatus": "Machine Status",
+    "online": "online",
+    "outputProgress": "Output Progress",
+    "lastUpdated": "Last Updated",
+    "trend": "Trend"
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "maintenance": "Maintenance"
+  },
+  "actions": {
+    "refresh": "Refresh",
+    "addMachine": "Add Machine",
+    "tryAgain": "Try Again",
+    "cancel": "Cancel",
+    "add": "Add",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "form": {
+    "addMachine": "Add New Machine",
+    "machineName": "Machine Name",
+    "machineNamePlaceholder": "Enter machine name",
+    "status": "Status",
+    "selectStatus": "Select status",
+    "initialOutput": "Initial Output",
+    "initialOutputPlaceholder": "Enter initial output value",
+    "errors": {
+      "nameRequired": "Machine name must be at least 3 characters",
+      "positiveNumber": "Value must be a positive number"
+    }
+  },
+  "notifications": {
+    "success": "Success",
+    "error": "Error",
+    "machineAdded": "Machine added successfully",
+    "unknownError": "An unknown error occurred"
+  }
+}

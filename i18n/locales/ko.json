@@ -1,0 +1,66 @@
+{
+  "pageTitle": "생산 모니터링 대시보드",
+  "machineNameLabel": "기계 이름",
+  "selectMachinePlaceholder": "기계 선택",
+  "dateRangeLabel": "날짜 범위",
+  "selectDateRangePlaceholder": "날짜 범위 선택",
+  "productionChartTitle": "일일 생산량",
+  "productionTableTitle": "기계 상태",
+  "tableMachineName": "기계 이름",
+  "tableStatus": "상태",
+  "tableOutput": "총 생산량",
+  "tableLastUpdated": "마지막 업데이트",
+  "errorLoading": "데이터 로딩 오류",
+  "lastDays": "최근 {{days}}일",
+  "nav": {
+    "dashboard": "대시보드",
+    "analytics": "분석",
+    "performance": "성능",
+    "settings": "설정"
+  },
+  "stats": {
+    "totalMachines": "총 기계 수",
+    "onlineMachines": "온라인 기계 수",
+    "totalProduction": "총 생산량",
+    "efficiency": "효율성",
+    "machineStatus": "기계 상태",
+    "online": "온라인",
+    "outputProgress": "생산 진행률",
+    "lastUpdated": "마지막 업데이트",
+    "trend": "추세"
+  },
+  "status": {
+    "online": "온라인",
+    "offline": "오프라인",
+    "maintenance": "유지보수"
+  },
+  "actions": {
+    "refresh": "새로고침",
+    "addMachine": "기계 추가",
+    "tryAgain": "다시 시도",
+    "cancel": "취소",
+    "add": "추가",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "편집"
+  },
+  "form": {
+    "addMachine": "새 기계 추가",
+    "machineName": "기계 이름",
+    "machineNamePlaceholder": "기계 이름 입력",
+    "status": "상태",
+    "selectStatus": "상태 선택",
+    "initialOutput": "초기 생산량",
+    "initialOutputPlaceholder": "초기 생산량 입력",
+    "errors": {
+      "nameRequired": "기계 이름은 최소 3자 이상이어야 합니다",
+      "positiveNumber": "값은 양수여야 합니다"
+    }
+  },
+  "notifications": {
+    "success": "성공",
+    "error": "오류",
+    "machineAdded": "기계가 성공적으로 추가되었습니다",
+    "unknownError": "알 수 없는 오류가 발생했습니다"
+  }
+}

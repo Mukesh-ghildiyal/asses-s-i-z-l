@@ -25,7 +25,7 @@ export const aggregateProductionData = (machines: Machine[], dateRange: [Date, D
     const dateStr = formatDateForChart(currentDate)
     const dataPoint: Record<string, any> = { date: dateStr }
 
-    // Initialize with zero for each machine
+
     machines.forEach((machine) => {
       dataPoint[machine.id] = 0
     })

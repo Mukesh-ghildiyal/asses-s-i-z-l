@@ -9,12 +9,12 @@ const generateProductionEntries = (
   const entries: ProductionEntry[] = []
   const endDate = new Date()
 
-  // Create an entry for each day
+
   const currentDate = new Date(startDate)
   while (currentDate <= endDate) {
     entries.push({
       date: new Date(currentDate).toISOString(),
-      output: Math.floor(Math.random() * 100) + 50, // Random output between 50-150
+      output: Math.floor(Math.random() * 100) + 50, 
     })
     currentDate.setDate(currentDate.getDate() + 1)
   }

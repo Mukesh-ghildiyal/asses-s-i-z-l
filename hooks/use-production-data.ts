@@ -60,7 +60,7 @@ export const useProductionData = () => {
     queryFn: fetchProductionData,
     refetchOnWindowFocus: false,
     retry: 2,
-    refetchInterval: 30000, // Auto-refresh every 30 seconds
+    refetchInterval: 200000, // Auto-refresh every 30 seconds
     staleTime: 10000, // Consider data fresh for 10 seconds
   })
 }
